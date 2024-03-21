@@ -1,0 +1,18 @@
+# Ignora los archivos de configuración del sistema
+*.DS_Store
+
+# Ignora los archivos de log
+*.log
+
+# Ignora los archivos temporales
+*.tmp
+
+# Ignora los directorios de construcción
+/dist
+/build
+
+# Ignora los directorios de los módulos
+/node_modules
+
+# Ignora los archivos de entorno
+.env

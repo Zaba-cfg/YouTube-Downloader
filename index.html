@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargar Videos de YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Descargar Videos de YouTube</h1>
+    </header>
+    <main>
+        <div id="video-form">
+            <input type="text" id="video-url" placeholder="Ingrese la URL del video de YouTube">
+            <select id="format">
+                <option value="highest">Mejor calidad disponible</option>
+                <option value="audio">Solo audio</option>
+                <!-- Agrega más opciones de calidad aquí si lo deseas -->
+            </select>
+            <button onclick="getVideoInfo()">Descargar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
